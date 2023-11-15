@@ -1,0 +1,35 @@
+/*************** 
+    COMMON UI ELEMENTS
+***************/
+
+* { font-family: 'Roboto', sans-serif; }
+
+body { background-image: url(../img/spiderman-in-the-corner-hr6k8abdba0fbnv6.jpg); }
+
+/*************** 
+    NAV ELEMENTS
+***************/
+
+#spiderman-logo-nav {
+    width: 40px;
+    height: auto;
+}
+
+/*************** 
+    MAIN ELEMENTS
+***************/
+
+#game-board {
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    background-image: url(../img/pngimg.com\ -\ spider_man_PNG19.png);
+    opacity: 0.4;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px blue;
+}
